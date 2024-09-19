@@ -2,6 +2,7 @@
 .App {
   text-align: center;
   margin-top: 50px;
+  font-family: Arial, sans-serif;
 }
 
 form {
@@ -9,26 +10,65 @@ form {
   flex-direction: column;
   width: 300px;
   margin: 0 auto;
+  padding: 30px;
+  border-radius: 15px;
+  background: linear-gradient(to right, #ff9a9e, #fad0c4);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 input {
-  padding: 10px;
+  padding: 15px;
   margin: 10px 0;
   font-size: 16px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent background */
+  color: black;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  border-color: rgba(255, 255, 255, 0.7);
+}
+
+.password-container {
+  position: relative;
+}
+
+.password-container input {
+  padding-right: 45px; /* Add space for the eye icon */
+}
+
+.eye-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  opacity: 0.7;
+  transition: opacity 0.3s;
+}
+
+.eye-icon:hover {
+  opacity: 1;
 }
 
 button {
-  padding: 10px;
+  padding: 15px;
   font-size: 16px;
   cursor: pointer;
-  background-color: #4CAF50;
+  background-color: black; /* Black button background */
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 30px; /* Rounded bubble-like buttons */
+  transition: background-color 0.3s;
 }
 
 button:hover {
-  background-color: #45a049;
+  background-color: #333;
 }
 
 p {

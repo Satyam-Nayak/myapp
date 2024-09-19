@@ -17,6 +17,8 @@ function App() {
     confirmPassword: ''
   });
 
+  const [showPassword, setShowPassword] = useState(false); // Toggle password visibility
+
   const handleInputChange = (e) => {
     setFormData({
       ...formData,
@@ -27,7 +29,6 @@ function App() {
   const handleSignUpSubmit = (e) => {
     e.preventDefault();
     if (formData.password === formData.confirmPassword) {
-      // here it store the user's data on successful sign-up
       setUserData({
         fullName: formData.fullName,
         email: formData.email,
@@ -42,7 +43,6 @@ function App() {
 
   const handleLoginSubmit = (e) => {
     e.preventDefault();
-    // here it check if the entered email and password match the stored data
     if (formData.email === userData.email && formData.password === userData.password) {
       setIsLoggedIn(true);
     } else {
@@ -58,6 +58,10 @@ function App() {
       password: '',
       confirmPassword: ''
     });
+  };
+
+  const togglePasswordVisibility = () => {
+    setShowPassword(!showPassword);
   };
 
   return (
@@ -84,14 +88,22 @@ function App() {
                 onChange={handleInputChange}
                 required
               />
-              <input
-                type="password"
-                name="password"
-                placeholder="Create Password"
-                value={formData.password}
-                onChange={handleInputChange}
-                required
-              />
+              <div className="password-container">
+                <input
+                  type={showPassword ? "text" : "password"}
+                  name="password"
+                  placeholder="Create Password"
+                  value={formData.password}
+                  onChange={handleInputChange}
+                  required
+                />
+                <img
+                  src="https://static-00.iconduck.com/assets.00/eye-password-hide-icon-512x512-iv45hct9.png"
+                  alt="toggle password visibility"
+                  className="eye-icon"
+                  onClick={togglePasswordVisibility}
+                />
+              </div>
               <input
                 type="password"
                 name="confirmPassword"
@@ -115,14 +127,22 @@ function App() {
                 onChange={handleInputChange}
                 required
               />
-              <input
-                type="password"
-                name="password"
-                placeholder="Password"
-                value={formData.password}
-                onChange={handleInputChange}
-                required
-              />
+              <div className="password-container">
+                <input
+                  type={showPassword ? "text" : "password"}
+                  name="password"
+                  placeholder="Password"
+                  value={formData.password}
+                  onChange={handleInputChange}
+                  required
+                />
+                <img
+                  src="https://static-00.iconduck.com/assets.00/eye-password-hide-icon-512x512-iv45hct9.png"
+                  alt="toggle password visibility"
+                  className="eye-icon"
+                  onClick={togglePasswordVisibility}
+                />
+              </div>
               <button type="submit">Log In</button>
               <p onClick={() => setIsSignUp(true)}>Don't have an account? Sign up</p>
             </form>
