@@ -1,0 +1,63 @@
+/* Navbar.css */
+
+.header {
+  position: fixed; /* Fixes the navbar to the top */
+  top: 0; /* Aligns it to the top of the page */
+  width: 100%; /* Makes the navbar span the full width */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: #333;
+  color: #fff;
+  z-index: 1000; /* Keeps it above other content */
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo span {
+  color: #4CAF50; /* Highlight color for your name */
+}
+
+.navbar {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 8px 16px;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.navbar a.active,
+.navbar a:hover {
+  background-color: #4CAF50; /* Active link background */
+  border-radius: 5px;
+  color: #fff;
+}
+
+.contact {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.contact:hover {
+  background-color: #45a049; /* Slightly darker green on hover */
+}
+
+/* To prevent content from being hidden behind the fixed navbar */
+body {
+  padding-top: 80px; /* Adjust based on navbar height */
+}

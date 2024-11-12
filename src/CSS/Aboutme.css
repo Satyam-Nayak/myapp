@@ -1,0 +1,74 @@
+/* Aboutme.css */
+
+.home {
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(241, 241, 241);
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12% 0;
+}
+
+.home-content {
+    max-width: 800px;
+}
+
+.home-content h3 {
+    font-size: 42px;
+}
+
+.home-content h1 {
+    text-decoration: underline;
+    font-size: 32px;
+    line-height: 1.2;
+}
+
+.home-content p {
+    font-size: 18px;
+    margin: 25px 0 30px;
+}
+
+.btn-box {
+    width: 345px;
+    display: flex;
+    gap: 2em;
+}
+
+.btn-1, .btn-2 {
+    padding: 15px 28px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    transition: 0.3s ease;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-1 {
+    background-color: black;
+    color: white;
+}
+
+.btn-1:hover {
+    background-color: white;
+    color: black;
+}
+
+.btn-2 {
+    background-color: rgb(0, 206, 206);
+    color: black;
+}
+
+.btn-2:hover {
+    background-color: black;
+    color: white;
+}
+
+.img-box img {
+    border-radius: 50%;
+    width: 550px;
+}
