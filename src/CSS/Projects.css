@@ -1,0 +1,5 @@
+.projects-section .card-img-top {
+    height: 200px; /* Adjust this height as needed */
+    object-fit: cover; /* This crops the image to fit the fixed height without distorting it */
+  }
+  
