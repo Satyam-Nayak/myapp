@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar';
 import Aboutme from './Components/Aboutme';
 import Skills from './Components/Skills';
 import Projects from './Components/Projects';
+import Footer from './Components/Footer';
  function App() {
   return (
     <React.Fragment>
@@ -11,6 +12,7 @@ import Projects from './Components/Projects';
       <Aboutme/>
       <Skills/>
       <Projects/>
+      <Footer/>
     </React.Fragment>
   )
 }
