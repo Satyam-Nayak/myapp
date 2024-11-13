@@ -8,7 +8,7 @@ export default function Navbar() {
       <nav className="navbar">
         <a href="#about" className="active">About</a>
         <a href="#skills" className="not">Skills</a>
-        <a href="#projects" className="not">Projects</a>
+        <a href="#projects" className="active">Projects</a>
         {/* Replace # with your Google Drive link */}
         <a href="https://drive.google.com/file/d/1dmnqDnUdbuhFotUL39IKoHj1D3oxEaad/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
       </nav>
