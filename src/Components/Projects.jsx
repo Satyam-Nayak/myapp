@@ -19,7 +19,7 @@ function Projects() {
               <Card.Text>
                 A project that leverages CNN algorithms to detect brain tumors from MRI scans.
               </Card.Text>
-              <Button variant="primary" onClick={() => window.open("https://github.com/Satyam-Nayak/Brain-Tumor-Classification-Using-Deep-Learning-Algorithms", "_blank")}>GitHub</Button>
+              <Button variant="success" onClick={() => window.open("https://github.com/Satyam-Nayak/Brain-Tumor-Classification-Using-Deep-Learning-Algorithms", "_blank")}>GitHub</Button>
             </Card.Body>
           </Card>
         </Col>
@@ -32,7 +32,7 @@ function Projects() {
               <Card.Text>
                 Here i used only React Js and For stying i used Bootstarp in this Project. 
               </Card.Text>
-              <Button variant="primary" onClick={() => window.open("https://github.com/Satyam-Nayak/myapp", "_blank")}>GitHub</Button>
+              <Button variant="success" onClick={() => window.open("https://github.com/Satyam-Nayak/myapp", "_blank")}>GitHub</Button>
               
             </Card.Body>
           </Card>
@@ -46,7 +46,7 @@ function Projects() {
               <Card.Text>
               In this project, I used HTML, CSS, and JavaScript, and integrated the OpenWeather API to fetch weather data for different locations.
               </Card.Text>
-              <Button variant="primary" onClick={()=> window.open("https://github.com/Satyam-Nayak/weather-website","_blank")}>GitHub</Button>
+              <Button variant="success" onClick={()=> window.open("https://github.com/Satyam-Nayak/weather-website","_blank")}>GitHub</Button>
             </Card.Body>
           </Card>
         </Col>
@@ -59,7 +59,7 @@ function Projects() {
               <Card.Text>
               In this project, I used ReactJS along with an open movie API, which enables users to play trailers for each movie.
               </Card.Text>
-              <Button variant="primary" onClick={()=> window.open("https://github.com/Satyam-Nayak/netflix-clone","_blank")}>GitHub</Button>
+              <Button variant="success" onClick={()=> window.open("https://github.com/Satyam-Nayak/netflix-clone","_blank")}>GitHub</Button>
             </Card.Body>
           </Card>
         </Col>

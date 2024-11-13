@@ -54,7 +54,6 @@ function Footer() {
           <a href="https://www.instagram.com/ig_satyam_n.26/" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-instagram"></i></a>
           <a href="https://drive.google.com/file/d/1dmnqDnUdbuhFotUL39IKoHj1D3oxEaad/view" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-google-drive"></i></a>
           <a href="https://github.com/Satyam-Nayak" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-github"></i></a>
-          <a href="https://github.com/Satyam-Nayak" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-github"></i></a>
         </div>
       </div>
     </footer>
