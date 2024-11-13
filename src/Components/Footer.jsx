@@ -32,7 +32,7 @@ function Footer() {
         <img src="/Images/sig_img-removebg-preview.png" alt="Signature" className="signature" />
         <p className="contact-info"><strong>Name:</strong> Satyam Nayak</p>
         <p className="contact-info"><strong>Contact No:</strong> 999-333-9898</p>
-        <p className="contact-info"><strong>Email:</strong> sam@gmail26.com</p>
+        <p className="contact-info"><strong>Email:</strong> sop97541@gmail.com</p>
       </div>
 
       <div className="footer-middle">
