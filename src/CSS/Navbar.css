@@ -1,51 +1,52 @@
 /* Navbar.css */
 
 .header {
-  position: fixed; /* Fixes the navbar to the top */
-  top: 0; /* Aligns it to the top of the page */
-  width: 100%; /* Makes the navbar span the full width */
+  position: fixed;
+  top: 0;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 40px;
-  background-color: #333;
+  padding: 10px 30px; /* Reduced padding for a slimmer look */
+  background-color: rgba(51, 51, 51, 0.85); /* Dusky transparent background */
   color: #fff;
-  z-index: 1000; /* Keeps it above other content */
+  z-index: 1000;
+  backdrop-filter: blur(5px); /* Optional: Adds a subtle blur effect */
 }
 
 .logo {
-  font-size: 24px;
+  font-size: 22px; /* Adjusted for slimmer look */
   font-weight: bold;
   color: #fff;
   text-decoration: none;
 }
 
 .logo span {
-  color: #4CAF50; /* Highlight color for your name */
+  color: #4CAF50;
 }
 
 .navbar {
   display: flex;
-  gap: 20px;
+  gap: 15px; /* Reduced gap for compactness */
 }
 
 .navbar a {
   color: #fff;
   text-decoration: none;
-  font-size: 18px;
-  padding: 8px 16px;
+  font-size: 16px; /* Slightly smaller font */
+  padding: 6px 12px; /* Reduced padding for slimmer look */
   transition: color 0.3s, background-color 0.3s;
 }
 
 .navbar a.active,
 .navbar a:hover {
-  background-color: #4CAF50; /* Active link background */
+  background-color: #4CAF50;
   border-radius: 5px;
   color: #fff;
 }
 
 .contact {
-  padding: 10px 20px;
+  padding: 8px 16px; /* Slimmed down button */
   background-color: #4CAF50;
   color: #fff;
   border-radius: 5px;
@@ -54,10 +55,10 @@
 }
 
 .contact:hover {
-  background-color: #45a049; /* Slightly darker green on hover */
+  background-color: #45a049;
 }
 
-/* To prevent content from being hidden behind the fixed navbar */
+/* Prevent content from being hidden behind the navbar */
 body {
-  padding-top: 80px; /* Adjust based on navbar height */
+  padding-top: 60px; /* Adjusted for slimmer navbar */
 }
