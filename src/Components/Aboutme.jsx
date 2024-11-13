@@ -12,7 +12,7 @@ export default function Aboutme() {
         </p>
         <div className="btn-box">
           <a href="https://drive.google.com/file/d/1o7VtBDuq_IAvdoMqFnlnPBQ3g4Yqd-ez/view" target="_blank" rel="noopener noreferrer" className="btn-1">Resume</a>
-          <button style={{textDecoration:"line-through"}} className="btn-2">Experience</button>
+          <button className="btn-2" onClick={()=> window.open("https://github.com/Satyam-Nayak","_blank")}>Experience</button>
         </div>
       </div>
       <div className="img-box">

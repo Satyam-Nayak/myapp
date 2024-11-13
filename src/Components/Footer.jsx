@@ -30,7 +30,7 @@ function Footer() {
     <footer id='contact' className="footer">
       <div className="footer-left">
         <img src="/Images/sig_img-removebg-preview.png" alt="Signature" className="signature" />
-        <p className="contact-info"><strong>Satyam Nayak</strong></p>
+        <p className="contact-info"><strong>Name:</strong> Satyam Nayak</p>
         <p className="contact-info"><strong>Contact No:</strong> 999-333-9898</p>
         <p className="contact-info"><strong>Email:</strong> sam@gmail26.com</p>
       </div>
@@ -60,5 +60,4 @@ function Footer() {
     </footer>
   );
 }
-
 export default Footer;
