@@ -52,7 +52,7 @@ function Footer() {
           <a href="https://www.linkedin.com/in/satyam-nayak-26june2002/" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-linkedin"></i></a>
           <a href="https://twitter.com/SatyamN261" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-twitter"></i></a>
           <a href="https://www.instagram.com/ig_satyam_n.26/" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-instagram"></i></a>
-          <a href="https://drive.google.com/file/d/1dmnqDnUdbuhFotUL39IKoHj1D3oxEaad/view" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-google-drive"></i></a>
+          <a href="https://drive.google.com/file/d/1zE4dKXeTeXAubbCdXkgLBU9YQ88wbgnv/view" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-google-drive"></i></a>
           <a href="https://github.com/Satyam-Nayak" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-github"></i></a>
         </div>
       </div>
