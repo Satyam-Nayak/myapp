@@ -1,70 +1,122 @@
-# Getting Started with Create React App
+# 🌟 Satyam Nayak's Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my personal portfolio! 🚀 This project showcases my skills, projects, and experience as a **MERN Stack Developer**. It is built using **React** and **Bootstrap**, ensuring a sleek, responsive, and interactive experience.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🎨 Live Preview
 
-### `npm start`
+🔗 [Check out my Portfolio](https://satyam-n26-port-app.vercel.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<iframe src="https://satyam-n26-port-app.vercel.app/" width="600" height="400" style="border:1px solid #ccc;"></iframe>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🔥 Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+✅ **Fully Responsive** - Works on all devices 📱💻
+✅ **Smooth Navigation** - Easy-to-use interface 🧭
+✅ **Dark/Light Mode** *(Upcoming Feature!)* 🌗
+✅ **Fast Loading** - Optimized for performance ⚡
+✅ **Interactive UI** - Engaging animations and transitions 🎭
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+| Frontend   | Backend    | Other           |
+| ---------- | ---------- | --------------- |
+| HTML5      | Node.js    | GitHub          |
+| CSS3       | Express.js | Bootstrap       |
+| JavaScript | MongoDB    | Netlify         |
+| React.js   | SQL        | OpenWeather API |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 📌 Sections
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🔹 **Home** - Introduction & welcome message 👋\
+🔹 **About** - Brief introduction about me 🎤\
+🔹 **Skills** - Technologies & tools I'm proficient in 🛠️\
+🔹 **Projects** - Some of my best works 💻\
+🔹 **Contact** - Let's connect! 📩\
+🔹 **Resume** - Download my latest resume 📄
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🚀 Projects Showcase
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 1️⃣ Brain Tumor Detection (CNN)
 
-## Learn More
+A deep learning-based project that classifies MRI scans for tumor detection.\
+🔗 [GitHub Repository](https://github.com/Satyam-Nayak/Brain-Tumor-Classification-Using-Deep-Learning-Algorithms)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 2️⃣ Portfolio Website
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+My personal website, built with **React** and **Bootstrap**.\
+🔗 [GitHub Repository](https://github.com/Satyam-Nayak/myapp)
 
-### Code Splitting
+### 3️⃣ Weather Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+A real-time weather web app using the **OpenWeather API**.\
+🔗 [GitHub Repository](https://github.com/Satyam-Nayak/weather-website)
 
-### Analyzing the Bundle Size
+### 4️⃣ Netflix Clone
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+A movie streaming UI built with **ReactJS** and an **open movie API**.\
+🔗 [GitHub Repository](https://github.com/Satyam-Nayak/netflix-clone)
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🚀 How to Run This Project Locally
 
-### Advanced Configuration
+1. Clone the repository:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+   ```bash
+   git clone https://github.com/Satyam-Nayak/myapp.git
+   ```
 
-### Deployment
+2. Navigate to the project folder:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+   ```bash
+   cd myapp
+   ```
 
-### `npm run build` fails to minify
+3. Install dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm start
+   ```
+
+---
+
+## 📞 Let's Connect
+
+📧 Email: [sop97541@gmail.com](mailto:sop97541@gmail.com)\
+🔗 LinkedIn: [Satyam Nayak](https://www.linkedin.com/in/satyam-nayak-26june2002/)\
+🐦 Twitter: [@SatyamN261](https://twitter.com/SatyamN261)\
+📷 Instagram: [ig\_satyam\_n.26](https://www.instagram.com/ig_satyam_n.26/)\
+💻 GitHub: [Satyam-Nayak](https://github.com/Satyam-Nayak)
+
+---
+
+## 🎯 Future Enhancements
+
+🔹 **Dark Mode Toggle** 🌙\
+🔹 **More Animations & Smooth Transitions** 🎨\
+🔹 **New Interactive Blog Section** 📝
+
+---
+
+## 💖 Show Your Support
+
+If you like this portfolio, give it a ⭐ on [GitHub](https://github.com/Satyam-Nayak/myapp)!
+
+🚀 Happy Coding!
+
